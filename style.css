@@ -1,4 +1,57 @@
 body{
-    background: blue;
+    background:none;
 
+}
+#profilelogo{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 50;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+body{
+    background-color: #F76B1D;
+    display: flex;
+    justify-items: center;
+    align-self: center;
+
+}
+
+#middlesection{
+font-size:20px;
+line-height: 1.2;    
+background-color: azure;
+width: 600px;
+margin:auto;
+text-align: center;
+border-radius: 10px;
+padding:30px, 0, 40px ;
+-webkit-box-orient: vertical;
+}
+
+h1, h3, h4{
+    font-size: 20px;
+    font: weight 400; 
+    margin: 0 0 10px;
+    font-style: inherit;
+    
+}
+
+#Btn{
+    background-color:#F76B1D;
+    padding: 20px 90px;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 40%;
+    font-size: 20px;
+}
+
+#myFooter{
+    background-color: blue;
 }
