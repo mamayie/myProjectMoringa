@@ -8,6 +8,8 @@ body{
     height: 150px;
     background-size: cover;
     border-radius: 50;
+    overflow: hidden;
+    align-self: center;
     background-repeat: no-repeat;
     background-position: center;
 
@@ -27,9 +29,9 @@ background-color: azure;
 width: 600px;
 margin:auto;
 text-align: center;
-border-radius: 10px;
-padding:30px, 0, 40px ;
--webkit-box-orient: vertical;
+border-radius: 3px;
+padding:10px 30px 40px 30px;
+margin-top: 10%;
 }
 
 h1, h3, h4{
@@ -42,7 +44,7 @@ h1, h3, h4{
 
 #Btn{
     background-color:#F76B1D;
-    padding: 20px 90px;
+    padding: 9px 70px;
     margin: 10px;
     border-radius: 5px;
     color: white;
@@ -52,6 +54,13 @@ h1, h3, h4{
     font-size: 20px;
 }
 
-#myFooter{
-    background-color: blue;
+#profileDiv{
+    position: relative;
+    margin-top: -75px;
+
+}
+
+#footerBotton{
+    background-color: rgba(0, 217, 255, 0.484);
+    width: 100%;   
 }
