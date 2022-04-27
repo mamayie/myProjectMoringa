@@ -1,11 +1,8 @@
-body{
-    background:none;
 
-}
 #profilelogo{
     border-radius: 50%;
     width: 150px;
-    height: 150px;
+    height: 140px;
     background-size: cover;
     border-radius: 50;
     overflow: hidden;
@@ -16,22 +13,116 @@ body{
 }
 body{
     background-color: #F76B1D;
+    height: 200%;
     display: flex;
     justify-items: center;
     align-self: center;
+    padding: 0;
+    margin: 0;
+    
 
 }
 
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* *{ 
+    margin: ;
+    padding: ;
+    box-sizing: border-box;
+    
+ } 
+ */
+nav.topnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.6%;
+    background-color: rgb(240, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3%;
+    box-sizing: border-box;
+    line-height: 20px;
+    font-size: 20px;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    font-family: inherit;
+   }
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+
+.nav-links a{
+    color: #a0baa5;
+}
+
+.text link {
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li :hover {
+    background-color: #4c9e4c;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li{
+    padding: 5px 14px;
+}
+
+.dropdown{
+    background-color: rgb(1, 139, 139);
+    padding: 1em 0;
+    position: absolute;
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+}
+ul {
+    list-style-type: none ;
+}
+
+
 #middlesection{
 font-size:20px;
-line-height: 1.2;    
+font-family: inherit;
+line-height: 2.5;    
 background-color: azure;
-width: 600px;
+width: 700px;
 margin:auto;
 text-align: center;
 border-radius: 3px;
-padding:10px 30px 40px 30px;
+padding: 0;
+border: 0;
 margin-top: 10%;
+height: 200%;
 }
 
 h1, h3, h4{
@@ -44,14 +135,16 @@ h1, h3, h4{
 
 #Btn{
     background-color:#F76B1D;
-    padding: 9px 70px;
-    margin: 10px;
+    padding: 10px 70px;
+    margin: 12px;
     border-radius: 5px;
     color: white;
     text-decoration: none;
     display: inline-block;
-    width: 40%;
-    font-size: 20px;
+    width: 60%;
+    font-size: 12.7px;
+    font-family: inherit;
+    font-style: inherit;
 }
 
 #profileDiv{
@@ -62,5 +155,12 @@ h1, h3, h4{
 
 #footerBotton{
     background-color: rgba(0, 217, 255, 0.484);
-    width: 100%;   
+    position: absolute;
+    width: 0%;
+    bottom: 0%;
+    left: 24%;
+    right: 25%;
+    height: 5%; 
+    padding-top: 1%;
+    padding-bottom: 1%;  
 }
